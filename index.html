@@ -1,0 +1,28 @@
+<div class="container">
+
+    <h1>Contact Book</h1>
+
+    <input type="text" id="search" placeholder="Search contacts" oninput="searchContacts()">
+
+    <button onclick="showAddForm()">Add Contact</button>
+
+    <div id="addForm" style="display: none;">
+
+        <h2>Add New Contact</h2>
+
+        <input type="text" id="name" placeholder="Name">
+
+        <input type="tel" id="phone" placeholder="Phone Number">
+
+        <input type="email" id="email" placeholder="Email">
+
+        <input type="text" id="address" placeholder="Address">
+
+        <button onclick="addContact()">Save</button>
+
+    </div>
+
+    <div id="contactList"></div>
+
+</div>
+
